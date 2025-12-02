@@ -54,3 +54,34 @@ The agent (LangGraph) automatically:
 ✔ The pretrained LLM produces the insights
 ✔ LangGraph agents control when and how many times the LLM is called
 ✔ The routing logic decides which insights to generate
+
+
+# Your multi-agent LangGraph system uses following:
+
+i) Design Patterns present in your code
+
+- Graph-based pattern (workflow DAG)
+
+- Router/Sequential chain (competitor → customer → trends → pricing → report)
+
+- Orchestrator–Worker (main class orchestrates 5 agents)
+
+ii) Layers implied
+
+- Perception layer: LLM interpreting the query
+
+- Planning layer: Graph determines next node
+
+- Action layer: Agents performing tasks
+
+- Memory layer: Shared state dict across nodes
+
+iii) Cognitive patterns
+
+- No explicit reflection
+
+- No verifier
+
+- No self-critique
+
+Only basic LLM reasoning inside each agent
