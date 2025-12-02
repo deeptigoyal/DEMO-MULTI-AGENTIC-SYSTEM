@@ -56,9 +56,9 @@ The agent (LangGraph) automatically:
 ✔ The routing logic decides which insights to generate
 
 
-# Your multi-agent LangGraph system uses following:
+# The multi-agent LangGraph system uses following:
 
-i) Design Patterns present in your code
+i) Design Patterns present in the code
 
 - Graph-based pattern (workflow DAG)
 
