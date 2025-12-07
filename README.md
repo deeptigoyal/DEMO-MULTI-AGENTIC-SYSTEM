@@ -1,4 +1,4 @@
-# DEMO-MULTI-AGENTIC-SYSTEM
+# DEMO1- Basic - MULTI-AGENTIC-SYSTEM
 
 This system performs end-to-end market research by running multiple specialized AI agents in a fixed LangGraph workflow, generating competitor, customer, trend, and pricing insights, and producing a final executive report.
 
